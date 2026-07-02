@@ -91,4 +91,18 @@ const GAMES = [
       },
     ],
   },
+  {
+    name: "Packet Hook External",
+    image: "images/packet-external.png",
+    pricing: "PAID",
+    features: [
+      {
+        title: "Supported Games",
+        items: [
+          "All Shooting games",
+          "Playground Basketball",
+        ],
+      },
+    ],
+  },
 ];
