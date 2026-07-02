@@ -97,10 +97,60 @@ const GAMES = [
     pricing: "PAID",
     features: [
       {
-        title: "Supported Games",
+        title: "Aimbot",
         items: [
-          "All Shooting games",
-          "Playground Basketball",
+          "Silent Aim",
+          "FOV Circle",
+          "Smooth Aim",
+          "Bone Selector (Head / Torso / Root)",
+          "Target Mode (Closest Player / Closest to Mouse)",
+          "Aim Key Bind",
+          "Deadzone",
+          "Jitter",
+          "Velocity Prediction",
+        ],
+      },
+      {
+        title: "Player ESP",
+        items: [
+          "Bounding Boxes",
+          "Player Names",
+          "Health Bars",
+          "Distance",
+          "Tracers",
+          "Head Dot",
+          "Rainbow Box",
+          "Filled Box",
+          "3D Circle",
+          "FOV Arrows",
+          "Team Check",
+        ],
+      },
+      {
+        title: "Triggerbot",
+        items: [
+          "Auto Fire on Target",
+          "Hold Key Bind",
+          "Delay",
+        ],
+      },
+      {
+        title: "Auto Green (Basketball)",
+        items: [
+          "Attribute-Based Shot Detection",
+          "Auto Release E Key",
+          "Adjustable Release Delay",
+          "Live Status Display",
+        ],
+      },
+      {
+        title: "Misc",
+        items: [
+          "Direct Syscall Memory (No Driver)",
+          "Auto Offset Updater",
+          "Config Save / Load",
+          "Keybind Settings",
+          "Game-Specific Feature Switching",
         ],
       },
     ],
