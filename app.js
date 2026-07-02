@@ -86,6 +86,16 @@
     if (e.key === "Escape" && !overlay.hidden) closeModal();
   });
 
+  // FAQ accordion
+  document.querySelectorAll(".faq-item").forEach((item) => {
+    const q = item.querySelector(".faq-q");
+    const a = item.querySelector(".faq-a");
+    q.addEventListener("click", () => {
+      const isOpen = item.classList.toggle("open");
+      a.style.maxHeight = isOpen ? a.scrollHeight + "px" : "0";
+    });
+  });
+
   document.getElementById("year").textContent = new Date().getFullYear();
   renderGrid();
 })();
