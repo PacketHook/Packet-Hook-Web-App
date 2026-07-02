@@ -13,82 +13,81 @@
 
 const GAMES = [
   {
-    name: "ABA",
+    name: "Universal Tower Defense X",
     image: "",
     pricing: "PAID",
     features: [
       {
-        title: "Auto Equip",
+        title: "Macro",
         items: [
-          "Auto Equip Next",
-          "Fetch Character Data",
-          "Equip Selected",
-          "Add To Priority List",
-          "Clear Priority List",
-          "View Priority List",
-          "Refresh Players",
+          "Create Macro File",
+          "Select / Delete Macro",
+          "Equip Macro Units",
+          "Record Macro",
+          "Playback Macro",
+          "Play By Wave / Time",
+          "Delay Between Steps",
         ],
       },
       {
-        title: "Farm Controls",
+        title: "Macro Recording",
         items: [
-          "Auto Farm",
-          "Auto Dodge",
-          "Auto Skill",
-          "Kill Aura",
+          "Record Unit Placement",
+          "Record Upgrades",
+          "Record Universal Path Upgrades",
+          "Record Priority Changes",
+          "Record Unit Selling",
+          "Record Ability Usage",
+          "Boss Ability Timing",
         ],
       },
-    ],
-  },
-  {
-    name: "Type Soul",
-    image: "",
-    pricing: "PAID",
-    features: [
       {
-        title: "Combat",
-        items: ["Auto Farm", "Kill Aura", "Auto Parry", "Reach"],
+        title: "Macro Specific Map",
+        items: [
+          "Per-Category Macro Selection",
+          "Per-Map Macro Assignment",
+          "Challenge Map Support",
+          "Auto Yen Waiting",
+        ],
       },
       {
-        title: "Misc",
-        items: ["Auto Quest", "Server Hop", "Fast Travel"],
-      },
-    ],
-  },
-  {
-    name: "Pilgrammed",
-    image: "",
-    pricing: "PAID",
-    features: [
-      {
-        title: "Combat",
-        items: ["Aimbot", "Auto Attack", "Hitbox Expander"],
+        title: "Auto Join Map",
+        items: [
+          "Select Category / Map / Act",
+          "Select Difficulty",
+          "Friends Only",
+          "Global Matchmaking",
+          "Auto Join Map",
+        ],
       },
       {
-        title: "Player",
-        items: ["Fly", "Speed", "Noclip"],
+        title: "Auto Join Challenge",
+        items: [
+          "Select Challenge Type",
+          "Ignore Challenge Maps",
+          "Ignore Modifiers",
+          "Friends Only",
+          "Global Matchmaking",
+          "Auto Join Challenge",
+        ],
       },
-    ],
-  },
-  {
-    name: "Evomon",
-    image: "",
-    pricing: "FREE",
-    features: [
       {
-        title: "Farm",
-        items: ["Auto Catch", "Auto Battle", "Auto Explore"],
+        title: "Game Features",
+        items: [
+          "Auto Start",
+          "Auto Skip Wave",
+          "Auto Replay",
+          "Auto Next",
+          "Auto Leave",
+        ],
       },
-    ],
-  },
-  {
-    name: "Kaizen",
-    image: "",
-    pricing: "PAID",
-    features: [
       {
-        title: "Combat",
-        items: ["Kill Aura", "Auto Farm", "Aimbot"],
+        title: "Extra",
+        items: [
+          "Extra Features",
+          "Webhook Notifications",
+          "UI Settings",
+        ],
       },
     ],
   },
