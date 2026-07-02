@@ -20,7 +20,7 @@
     const total = countFeatures(game);
     const pricing = game.pricing === "FREE" ? "free" : "paid";
     const img = game.image
-      ? `<img class="card-img" src="${game.image}" alt="${game.name}" loading="lazy" />`
+      ? `<img class="card-img" src="${game.image}" alt="${game.name}" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'card-img'}))" />`
       : `<div class="card-img"></div>`;
     return `
       <article class="card" data-index="${index}">

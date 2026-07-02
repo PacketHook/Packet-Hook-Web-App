@@ -14,7 +14,7 @@
 const GAMES = [
   {
     name: "Universal Tower Defense X",
-    image: "",
+    image: "https://www.roblox.com/asset-thumbnail/image?assetId=75232429990308&width=768&height=432&format=png",
     pricing: "PAID",
     features: [
       {
