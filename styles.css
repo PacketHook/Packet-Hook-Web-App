@@ -232,3 +232,18 @@ main { position: relative; z-index: 1; }
 /* scrollbar */
 .modal::-webkit-scrollbar { width: 8px; }
 .modal::-webkit-scrollbar-thumb { background: #2a2a30; border-radius: 8px; }
+
+/* ---------- Contact icons row ---------- */
+.contact-icons {
+  display: flex; gap: 28px; justify-content: center; align-items: center; flex-wrap: wrap;
+}
+.contact-shop {
+  display: inline-flex; align-items: center; justify-content: center;
+  transition: transform .2s, filter .2s;
+  filter: drop-shadow(0 10px 30px rgba(255,200,50,0.35));
+}
+.contact-shop img {
+  width: 96px; height: 96px; border-radius: 22px; object-fit: cover;
+  border: 1px solid var(--border);
+}
+.contact-shop:hover { transform: translateY(-4px) scale(1.03); filter: drop-shadow(0 14px 40px rgba(255,200,50,0.55)); }
